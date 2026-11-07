@@ -1,0 +1,15 @@
+CASCINA IL GIRASOLE ROSSO — sito web
+
+Contenuto:
+- index.html: sito responsive in italiano
+- images/: fotografie originali recuperate dalla Raccolta
+
+Per vedere il sito:
+1. Estrai il file ZIP.
+2. Apri index.html con un browser.
+3. Per pubblicarlo, carica la cartella su un servizio hosting statico (ad esempio Netlify, GitHub Pages o lo spazio web del tuo dominio).
+
+Nota sulle fotografie:
+Sono state inserite soltanto immagini originali recuperate e verificate. La foto in cui compare Nimue è stata esclusa. Le immagini degli alloggi sono state associate usando il gruppo fotografico disponibile; prima della pubblicazione definitiva è opportuno verificare che la foto dell'angolo lettura sia effettivamente del Nido.
+
+Il sito non mostra prezzi né indirizzo completo. La posizione pubblica è soltanto Cortazzone (AT) · Alto Astigiano.

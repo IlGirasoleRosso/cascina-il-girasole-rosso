@@ -3,7 +3,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65}img{display:block;max-width:100%;width:100%;height:100%;object-fit:cover;filter:saturate(1.08) contrast(1.035) sepia(.105) brightness(1.015)}a{color:inherit;text-decoration:none}.top-note{height:34px;background:var(--wine);color:#fff2dc;display:flex;align-items:center;justify-content:center;gap:14px;font-size:11px;letter-spacing:.13em;text-transform:uppercase}.top-note span{color:var(--mustard);font-size:15px}.site-header{height:82px;padding:0 5.5%;display:flex;align-items:center;justify-content:space-between;background:var(--paper);position:sticky;top:0;z-index:20;border-bottom:1px solid #e9dfcc}.brand{display:flex;align-items:center;gap:10px;color:var(--forest)}.brand-flower{font-size:38px;color:var(--brick);line-height:1}.brand-name{font-family:var(--round);font-size:15px;line-height:1.05}.brand-name b{display:block;font-size:21px;font-weight:800}.nav{display:flex;align-items:center;gap:28px;font-size:13px;font-weight:700}.nav a:not(.nav-cta):hover,.text-link:hover{color:var(--brick)}.nav-cta{background:var(--mustard);padding:12px 18px;border-radius:40px;color:var(--deep)}.nav-cta span{margin-left:8px}.menu-toggle{display:none;border:0;background:none;font-size:26px;color:var(--forest)}
 .hero{background:var(--forest);color:var(--cream);min-height:640px;padding:64px 7% 70px;display:grid;grid-template-columns:.92fr 1.08fr;gap:5%;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:520px;height:520px;border:1px solid #ffffff20;border-radius:50%;left:-230px;bottom:-300px;box-shadow:0 0 0 35px #ffffff09,0 0 0 75px #ffffff08}.hero-copy{position:relative;z-index:2;padding:30px 0 0 2%;max-width:510px}.eyebrow{font-size:11px;letter-spacing:.17em;text-transform:uppercase;font-weight:700;margin:0 0 17px}.eyebrow span{display:inline-block;width:25px;height:1px;background:currentColor;vertical-align:middle;margin:0 7px}.hero h1,.section-heading h2,.garden-head h2,.sauna-copy h2,.little-title h2,.story-copy h2,.gallery-heading h2,.contact-section h2{font-family:var(--serif);font-weight:500;letter-spacing:-.045em;line-height:.98;margin:0}.hero h1{font-size:clamp(65px,8vw,112px)}.hero h1 em,.section-heading h2 em,.garden-head h2 em,.sauna-copy h2 em,.little-title h2 em,.story-copy h2 em,.gallery-heading h2 em,.contact-section h2 em{font-weight:500;color:var(--mustard)}.hero-intro{font-size:17px;max-width:370px;color:#f6eddb;margin:28px 0 28px}.button{display:inline-flex;align-items:center;gap:25px;padding:14px 22px;border-radius:40px;font-weight:700;font-size:13px;transition:.2s transform,.2s box-shadow}.button:hover{transform:translateY(-3px);box-shadow:0 8px 20px #0002}.button-light{background:var(--mustard);color:var(--deep)}.button-brick{background:var(--brick);color:#fff7e9}.hero-photo-wrap{align-self:center;position:relative;padding:13px 13px 42px;background:#f0d6a4;transform:rotate(2deg);box-shadow:0 18px 45px #1b2d2080}.hero-photo{height:440px;object-fit:cover}.photo-caption{position:absolute;bottom:10px;left:18px;right:18px;color:var(--wine);font-family:var(--round);font-size:16px;text-align:center}.photo-caption span{color:var(--brick);margin-left:12px}.hero-stamp{position:absolute;right:-28px;bottom:20px;width:100px;height:100px;border-radius:50%;background:var(--pink);color:var(--wine);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-family:var(--round);font-weight:800;font-size:11px;line-height:1.05;transform:rotate(10deg);border:2px dashed #8b3b4a}.hero-stamp b{font-size:28px}.hero-art{position:absolute;color:var(--mustard);z-index:1}.art-sun{font-size:120px;right:45%;top:25px;opacity:.9}.art-star{font-size:65px;right:6%;top:35px;color:var(--pink)}.hero-bottom-note{position:absolute;bottom:24px;left:7%;font-family:var(--round);font-size:13px;letter-spacing:.12em;color:#e6d9b8}
 .intro-band{padding:70px 20px 74px;text-align:center;background:var(--pink);color:var(--wine);position:relative;overflow:hidden}.intro-band p{font-family:var(--serif);font-size:clamp(28px,4vw,43px);line-height:1.1;margin:0}.intro-band strong{color:var(--forest);font-weight:600}.intro-doodle{font-size:42px;margin-bottom:12px;color:var(--brick)}.intro-small{font-size:13px;margin-top:16px;letter-spacing:.04em}
-.section{padding:100px 7%}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:48px}.green{color:var(--forest)}.section-heading h2,.little-title h2,.gallery-heading h2{font-size:clamp(42px,5.5vw,67px);color:var(--forest)}.section-heading h2 em,.little-title h2 em,.gallery-heading h2 em{color:var(--brick)}.section-lead{max-width:340px;margin:0 0 6px;color:#665d51;font-size:15px}.stay-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}.stay-card{border-radius:170px 170px 12px 12px;overflow:hidden;position:relative;padding-bottom:28px}.card-sun{background:#f2d88d}.card-olive{background:#d7dfc0}.card-lilac{background:#ded2e8}.stay-photo{height:280px;position:relative;padding:12px 12px 0}.stay-photo img{border-radius:160px 160px 5px 5px}.photo-number{position:absolute;top:25px;left:28px;background:var(--paper);color:var(--wine);font-family:var(--round);font-weight:800;border-radius:50%;width:38px;height:38px;display:grid;place-items:center}.flower-mark{position:absolute;bottom:-18px;right:25px;background:var(--brick);color:var(--cream);font-size:25px;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;border:3px solid var(--paper)}.stay-content{padding:27px 28px 0}.stay-tag{font-size:10px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:#665d51;margin:0 0 7px}.stay-content h3{font-family:var(--serif);font-size:43px;line-height:.95;font-weight:500;margin:0 0 16px;color:var(--deep)}.stay-content h3 em{color:var(--brick)}.stay-content>p:not(.stay-tag){font-size:13px;line-height:1.6;min-height:62px;margin:0 0 13px}.stay-content ul{padding-left:17px;font-size:12px;line-height:1.9;margin:0 0 20px}.stay-content li::marker{color:var(--brick)}.text-link{font-size:12px;font-weight:800;color:var(--wine);border-bottom:1px solid currentColor;padding-bottom:4px}.text-link span{margin-left:8px}.availability-note{text-align:center;color:#746a5c;font-size:12px;margin:34px auto 0}
+.section{padding:100px 7%}.section-heading{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:48px}.green{color:var(--forest)}.section-heading h2,.little-title h2,.gallery-heading h2{font-size:clamp(42px,5.5vw,67px);color:var(--forest)}.section-heading h2 em,.little-title h2 em,.gallery-heading h2 em{color:var(--brick)}.section-lead{max-width:340px;margin:0 0 6px;color:#665d51;font-size:15px}.stay-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}.stay-card{border-radius:170px 170px 12px 12px;overflow:hidden;position:relative;padding-bottom:28px}.card-sun{background:#f2d88d}.card-olive{background:#d7dfc0}.card-lilac{background:#ded2e8}.stay-photo{height:280px;position:relative;padding:12px 12px 0}.stay-photo img{border-radius:160px 160px 5px 5px}.stay-content{padding:27px 28px 0}.stay-tag{font-size:10px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:#665d51;margin:0 0 7px}.stay-content h3{font-family:var(--serif);font-size:43px;line-height:.95;font-weight:500;margin:0 0 16px;color:var(--deep)}.stay-content h3 em{color:var(--brick)}.stay-content>p:not(.stay-tag){font-size:13px;line-height:1.6;min-height:62px;margin:0 0 13px}.stay-content ul{padding-left:17px;font-size:12px;line-height:1.9;margin:0 0 20px}.stay-content li::marker{color:var(--brick)}.text-link{font-size:12px;font-weight:800;color:var(--wine);border-bottom:1px solid currentColor;padding-bottom:4px}.text-link span{margin-left:8px}.availability-note{text-align:center;color:#746a5c;font-size:12px;margin:34px auto 0}
 .garden-section{background:var(--brick);color:var(--cream);padding:90px 7% 85px;position:relative;overflow:hidden}.garden-section:after{content:"✿";position:absolute;right:-25px;top:-110px;font-size:300px;color:#ffffff0d;transform:rotate(18deg)}.garden-head{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:38px;position:relative;z-index:1}.cream{color:#f7e9cf}.garden-head h2{font-size:clamp(48px,6vw,76px)}.garden-head h2 em{color:#f2c86c}.garden-head>p{max-width:360px;margin:0 0 6px;color:#f8e6d4;font-size:14px}.garden-collage{display:grid;grid-template-columns:1.15fr .8fr 1fr;grid-template-rows:230px 205px;gap:18px;position:relative;z-index:1}.garden-img{margin:0;position:relative;padding:8px;background:#f4dcae;box-shadow:0 8px 20px #57251f35}.garden-img img{object-fit:cover}.garden-img figcaption{position:absolute;bottom:8px;left:8px;background:var(--cream);color:var(--wine);padding:5px 11px;font-family:var(--round);font-size:13px}.g1{grid-column:1;grid-row:1 / 3;transform:rotate(-1.5deg)}.g2{grid-column:2;grid-row:1;transform:rotate(2deg)}.g3{grid-column:3;grid-row:1 / 3;transform:rotate(1deg)}.g4{grid-column:2;grid-row:2;transform:rotate(-2deg)}.garden-badge{position:absolute;z-index:3;left:43%;top:39%;width:112px;height:112px;border-radius:50%;background:var(--mustard);color:var(--wine);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--round);font-weight:800;line-height:1.05;transform:rotate(-10deg);border:2px dashed var(--wine)}.garden-badge b{font-size:28px}.garden-features{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:58px}.garden-features>div{border-top:1px solid #ffffff65;padding-top:17px}.garden-features span{font-size:28px;color:var(--mustard)}.garden-features h3{font-family:var(--round);font-size:21px;margin:4px 0;color:#fff2d9}.garden-features p{font-size:13px;color:#f7e6d7;margin:0;max-width:280px}
 .sauna-section{padding:105px 9%;display:grid;grid-template-columns:1fr 1fr;gap:9%;align-items:center;background:#e7d8b9}.sauna-photo{height:460px;position:relative;padding:12px;background:var(--forest);transform:rotate(-2deg)}.sauna-photo img{object-fit:cover}.sauna-round{position:absolute;right:-32px;bottom:25px;background:var(--mustard);color:var(--wine);width:116px;height:116px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;text-transform:uppercase;font-family:var(--round);font-weight:800;font-size:12px;line-height:1.05;transform:rotate(8deg);border:2px dashed var(--wine)}.sauna-round b{font-size:25px}.brick{color:var(--brick)}.sauna-copy h2{font-size:clamp(48px,5.5vw,70px);color:var(--forest);margin-bottom:24px}.sauna-copy h2 em{color:var(--brick)}.sauna-copy>p:not(.eyebrow){font-size:15px;color:#5e574b;max-width:440px}.sauna-detail{font-size:12px!important;font-style:italic;margin:20px 0 25px}
 .little-things{padding:100px 8%;background:#f9edda}.little-title{text-align:center;margin-bottom:52px}.little-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}.little-item{text-align:center;padding:0 10px}.little-icon{width:68px;height:68px;border-radius:50%;display:grid;place-items:center;margin:0 auto 14px;font-size:32px;background:var(--pink);color:var(--wine)}.little-item:nth-child(2) .little-icon{background:#d6dfc0;color:var(--forest)}.little-item:nth-child(3) .little-icon{background:#f0d88e;color:var(--brick)}.little-item:nth-child(4) .little-icon{background:#dcd0e9;color:#59446c}.little-item h3{font-family:var(--round);font-size:19px;color:var(--forest);margin:0 0 8px}.little-item p{font-size:12px;color:#716658;line-height:1.7;margin:0}
@@ -32,76 +32,22 @@
 @media(max-width:680px){.stay-thumbs img{height:74px}.mini-gallery{grid-template-columns:repeat(2,1fr)}.mini-gallery img{height:155px}}
 
 
-/* Correzioni finali: numeri alloggi e bollino del giardino */
-.stay-photo .photo-number {
-  z-index: 5;
-  display: grid;
-  place-items: center;
-  width: 42px;
-  height: 42px;
-  top: 22px;
-  left: 24px;
-  background: var(--paper);
-  color: var(--wine);
-  border: 2px solid var(--wine);
-  box-shadow: 0 2px 8px #342e2930;
-  font-size: 16px;
-  line-height: 1;
+/* Il bollino è stato spostato fuori dal collage nell'HTML:
+   ora occupa una riga propria e non può coprire foto o didascalie. */
+.garden-badge {
+  position: relative !important;
+  z-index: 2 !important;
+  left: auto !important;
+  top: auto !important;
+  margin: 30px auto 0 !important;
+  flex: none;
 }
-
-/* Il bollino diventa un elemento sotto il collage: non copre più foto o didascalie. */
-.garden-collage .garden-badge {
-  position: relative;
-  z-index: 2;
-  grid-column: 1 / -1;
-  grid-row: 3;
-  justify-self: center;
-  align-self: center;
-  left: auto;
-  top: auto;
-  margin: 14px 0 4px;
-}
-
 @media (max-width: 680px) {
-  .garden-collage .garden-badge {
-    grid-row: 4;
-    width: 82px;
-    height: 82px;
-    margin-top: 10px;
-    font-size: 12px;
+  .garden-badge {
+    width: 82px !important;
+    height: 82px !important;
+    margin-top: 24px !important;
+    font-size: 12px !important;
   }
-  .garden-collage .garden-badge b {
-    font-size: 20px;
-  }
-}
-
-
-/* Numerazione alloggi: markup pulito e livello sempre leggibile */
-.stay-photo { position: relative; isolation: isolate; }
-.stay-photo > img { position: relative; z-index: 0; }
-.stay-photo::after { z-index: 1; }
-.stay-photo > .photo-number {
-  position: absolute !important;
-  z-index: 10 !important;
-  top: 24px !important;
-  left: 24px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  width: 44px !important;
-  height: 44px !important;
-  padding: 0 !important;
-  border: 2px solid #792d3d !important;
-  border-radius: 50% !important;
-  background: #fffaf0 !important;
-  color: #792d3d !important;
-  font-family: Arial, sans-serif !important;
-  font-size: 17px !important;
-  font-weight: 800 !important;
-  line-height: 1 !important;
-  text-align: center !important;
-  opacity: 1 !important;
-  visibility: visible !important;
-  text-shadow: none !important;
-  box-shadow: 0 2px 8px #342e2930 !important;
+  .garden-badge b { font-size: 20px !important; }
 }

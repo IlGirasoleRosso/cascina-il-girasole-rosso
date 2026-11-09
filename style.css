@@ -208,22 +208,12 @@
 
 /* Nessuna numerazione sulle fotografie degli alloggi. */
 .stay-photo .photo-number { display: none !important; }
-
-
-/* CORREZIONE DEFINITIVA: bollino piscina rimosso; scritta hero semplice, senza simboli né cerchi. */
-.garden-badge { display: none !important; }
-.hero-stamp {
-  width: auto !important; height: auto !important;
-  min-width: 0 !important; min-height: 0 !important;
-  padding: 0 !important; margin: 0 !important;
-  border: 0 !important; border-radius: 0 !important;
-  background: transparent !important; box-shadow: none !important;
-  transform: none !important;
-  display: flex !important; flex-direction: row !important;
-  align-items: center !important; justify-content: center !important;
-  gap: 8px !important;
-  color: var(--wine) !important;
-  font-size: 11px !important; line-height: 1.05 !important;
-  font-weight: 800 !important; text-align: center !important;
+/* Fiore botanico del Nido */
+.card-olive .flower-mark {
+  font-size: 0 !important;
 }
-.hero-stamp b { display: none !important; }
+
+.card-olive .flower-mark::before {
+  content: "✿";
+  font-size: 25px;
+}

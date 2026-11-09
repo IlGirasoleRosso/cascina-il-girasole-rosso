@@ -32,162 +32,45 @@
 @media(max-width:680px){.stay-thumbs img{height:74px}.mini-gallery{grid-template-columns:repeat(2,1fr)}.mini-gallery img{height:155px}}
 
 
-/* === Responsive refinement: mobile + desktop polish === */
-
-/* The caption belongs to the paper frame, never on top of the photograph. */
-.hero-photo-wrap{
-  display:flex;
-  flex-direction:column;
-  padding:13px 13px 12px;
-}
-.hero-photo{
-  display:block;
-  flex:0 0 auto;
-  height:440px;
-}
-.photo-caption{
-  position:static;
-  inset:auto;
-  padding:10px 12px 0;
-  color:var(--wine);
-  font-family:var(--round);
-  font-size:clamp(14px,1.35vw,17px);
-  line-height:1.25;
-  text-align:center;
-  overflow-wrap:normal;
-}
-.photo-caption span{white-space:nowrap}
-
-/* Keep the room numbers fully inside the rounded, clipped photo cards. */
-.photo-number{
-  top:55px;
-  left:55px;
-  z-index:4;
-}
-.flower-mark{
-  bottom:12px;
-  right:20px;
-  z-index:4;
+/* Correzioni finali: numeri alloggi e bollino del giardino */
+.stay-photo .photo-number {
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  top: 22px;
+  left: 24px;
+  background: var(--paper);
+  color: var(--wine);
+  border: 2px solid var(--wine);
+  box-shadow: 0 2px 8px #342e2930;
+  font-size: 16px;
+  line-height: 1;
 }
 
-/* Prevent decorative overlays from being mistaken for interface controls. */
-.hero-art{pointer-events:none}
-.hero-stamp{z-index:3}
-
-@media(max-width:680px){
-  .hero{
-    padding:38px 6% 66px;
-    gap:34px;
-  }
-  .hero-copy{
-    width:100%;
-    max-width:none;
-    padding:0;
-  }
-  .hero-intro{
-    max-width:100%;
-    font-size:clamp(15px,4vw,17px);
-    line-height:1.65;
-  }
-  .hero-stamp{
-    width:72px;
-    height:72px;
-    right:0;
-    bottom:-20px;
-    font-size:10px;
-  }
-  .hero-stamp b{font-size:23px}
-  .hero-photo-wrap{
-    width:94%;
-    max-width:520px;
-    margin:0 auto 8px;
-    padding:10px 10px 11px;
-    transform:rotate(1deg);
-  }
-  .hero-photo{height:clamp(230px,74vw,330px)}
-  .photo-caption{
-    padding:9px 8px 0;
-    font-size:clamp(13px,3.7vw,16px);
-    line-height:1.25;
-  }
-  /* A smaller, quieter mobile composition: no floating starburst over the copy. */
-  .art-star{display:none}
-  .art-sun{font-size:58px;right:2%;top:8px;opacity:.38}
-  .hero-bottom-note{
-    left:6%;
-    right:6%;
-    bottom:17px;
-    font-size:12px;
-    letter-spacing:.08em;
-  }
-  .photo-number{
-    top:48px;
-    left:48px;
-    width:36px;
-    height:36px;
-  }
-  .flower-mark{
-    bottom:12px;
-    right:18px;
-    width:43px;
-    height:43px;
-    font-size:22px;
-  }
-  .stay-photo{height:270px}
-  .sauna-photo{width:94%;height:310px}
-  .sauna-round{right:-8px;width:94px;height:94px}
-  .story-art{width:94%}
-  .story-sticker{left:-12px;width:96px;height:96px}
-  .garden-img{min-width:0}
-  .garden-img figcaption{max-width:calc(100% - 16px);line-height:1.2}
-  .contact-actions .button{justify-content:center}
-  .email-link{overflow-wrap:anywhere}
-  .footer{row-gap:12px}
+/* Il bollino diventa un elemento sotto il collage: non copre più foto o didascalie. */
+.garden-collage .garden-badge {
+  position: relative;
+  z-index: 2;
+  grid-column: 1 / -1;
+  grid-row: 3;
+  justify-self: center;
+  align-self: center;
+  left: auto;
+  top: auto;
+  margin: 14px 0 4px;
 }
 
-@media(max-width:380px){
-  .brand-name b{font-size:16px}
-  .hero{padding-left:5%;padding-right:5%}
-  .hero h1{font-size:clamp(54px,16vw,66px)}
-  .hero-photo-wrap{width:96%}
-  .hero-photo{height:235px}
-  .photo-caption{font-size:13px;padding-left:4px;padding-right:4px}
-  .hero-stamp{width:64px;height:64px}
-  .stay-photo{height:245px}
-  .photo-number{top:48px;left:48px}
-  .garden-collage{grid-template-rows:170px 145px 155px}
-  .garden-badge{left:39%;top:41%;width:76px;height:76px}
-  .little-grid{column-gap:12px}
-  .contact-section h2{font-size:54px}
-}
-
-/* Avoid accidental horizontal scrolling at narrow phone widths. */
-html,body{max-width:100%;overflow-x:hidden}
-
-
-/* Final adjustment: keep the garden badge clear of every photo caption,
-   especially “Un tuffo d’estate” on the pool photograph. */
-.garden-badge{
-  top:auto;
-  left:auto;
-  right:8%;
-  bottom:-42px;
-  width:100px;
-  height:100px;
-}
-.garden-features{margin-top:112px}
-@media(max-width:680px){
-  .garden-badge{
-    right:7%;
-    bottom:-36px;
-    width:78px;
-    height:78px;
-    left:auto;
-    top:auto;
+@media (max-width: 680px) {
+  .garden-collage .garden-badge {
+    grid-row: 4;
+    width: 82px;
+    height: 82px;
+    margin-top: 10px;
+    font-size: 12px;
   }
-  .garden-features{margin-top:96px}
-}
-@media(max-width:380px){
-  .garden-badge{right:6%;bottom:-34px;width:72px;height:72px}
-  .garden-features{margin-top:90px}
+  .garden-collage .garden-badge b {
+    font-size: 20px;
+  }
 }

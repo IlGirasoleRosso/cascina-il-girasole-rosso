@@ -227,3 +227,42 @@
   font-weight: 800 !important; text-align: center !important;
 }
 .hero-stamp b { display: none !important; }
+
+/* Ripristino bollino Sole buona vita SOLO desktop */
+@media (min-width: 681px) {
+  .hero-stamp {
+    right: -28px !important;
+    bottom: 20px !important;
+    width: 100px !important;
+    height: 100px !important;
+    min-width: 100px !important;
+    min-height: 100px !important;
+    padding: 0 !important;
+    border: 2px dashed #8b3b4a !important;
+    border-radius: 50% !important;
+    background: var(--pink) !important;
+    box-shadow: none !important;
+    transform: rotate(10deg) !important;
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
+
+  .hero-stamp b {
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    font-size: 28px !important;
+    line-height: 1 !important;
+    background: none !important;
+  }
+}
+
+/* Il Nido: fiore al posto dell'asterisco */
+.card-olive .flower-mark {
+  font-size: 0 !important;
+}
+
+.card-olive .flower-mark::before {
+  content: "✿";
+  font-size: 25px;
+}

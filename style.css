@@ -212,3 +212,28 @@
 
 /* Nessuna numerazione sulle fotografie degli alloggi. */
 .stay-photo .photo-number { display: none !important; }
+
+
+/* Correzione verificata: rosetta botanica e badge del giardino sotto le foto */
+.hero-stamp .botanical-rosette {
+  width: 27px; height: 27px; flex: 0 0 27px;
+  display: block; margin: 2px 0 3px; border-radius: 0; background: none;
+}
+.hero-stamp .botanical-rosette svg {
+  display: block; width: 100%; height: 100%; overflow: visible;
+}
+.garden-section > .garden-badge {
+  position: relative; z-index: 2;
+  left: auto; top: auto;
+  width: 112px; height: 112px;
+  margin: 25px auto 0;
+  transform: rotate(-10deg);
+}
+@media (max-width: 680px) {
+  .garden-section > .garden-badge {
+    width: 82px; height: 82px;
+    margin: 20px auto 0;
+    left: auto; top: auto; font-size: 12px;
+  }
+  .garden-section > .garden-badge b { font-size: 20px; }
+}

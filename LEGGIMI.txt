@@ -1,15 +1,17 @@
-CASCINA IL GIRASOLE ROSSO — sito web
+# Cascina Il Girasole Rosso — sito web
 
-Contenuto:
-- index.html: sito responsive in italiano
-- images/: fotografie originali recuperate dalla Raccolta
+Sito statico responsive, pronto per essere pubblicato con GitHub Pages.
 
-Per vedere il sito:
-1. Estrai il file ZIP.
-2. Apri index.html con un browser.
-3. Per pubblicarlo, carica la cartella su un servizio hosting statico (ad esempio Netlify, GitHub Pages o lo spazio web del tuo dominio).
+## File
+- `index.html`: contenuti e struttura delle pagine
+- `style.css`: grafica responsive "Giardino Incantato"
+- `script.js`: menu mobile
+- `images/`: fotografie ottimizzate in formato WebP
 
-Nota sulle fotografie:
-Sono state inserite soltanto immagini originali recuperate e verificate. La foto in cui compare Nimue è stata esclusa. Le immagini degli alloggi sono state associate usando il gruppo fotografico disponibile; prima della pubblicazione definitiva è opportuno verificare che la foto dell'angolo lettura sia effettivamente del Nido.
+## Pubblicazione con GitHub Pages
+1. Aprire il repository GitHub `cascina-il-girasole-rosso`.
+2. Caricare il contenuto di questa cartella nella radice del repository (non la cartella contenitore).
+3. In Settings → Pages, selezionare `Deploy from a branch`, branch `main`, folder `/ (root)` e salvare.
+4. Attendere la pubblicazione automatica di GitHub Pages.
 
-Il sito non mostra prezzi né indirizzo completo. La posizione pubblica è soltanto Cortazzone (AT) · Alto Astigiano.
+Il sito non mostra prezzi né indirizzo completo. I link di contatto puntano ai numeri WhatsApp e all'indirizzo email forniti.

@@ -195,3 +195,26 @@
 
 /* Nessuna numerazione sulle fotografie degli alloggi. */
 .stay-photo .photo-number { display: none !important; }
+
+
+/* Correzione badge giardino: resta sotto il collage, senza coprire didascalie. */
+.garden-badge {
+  position: relative;
+  left: auto;
+  top: auto;
+  z-index: 2;
+  width: 104px;
+  height: 104px;
+  margin: 24px auto 0;
+  transform: rotate(-8deg);
+}
+@media (max-width: 680px) {
+  .garden-badge {
+    position: relative;
+    left: auto;
+    top: auto;
+    width: 82px;
+    height: 82px;
+    margin: 22px auto 0;
+  }
+}
